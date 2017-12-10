@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>UI Challenge 2 (CSS)</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <h1>UI Challenge - Custom Form Elements</h1>
+
+    <form id="new-form">
+      <label for="text-input">
+        text input
+        <input type="text" name="text-input" value="text-input" placeholder="placeholder text">
+      </label>
+
+      <label for="text-vldtn-input">
+        text input w/ validation error
+        <input type="text" name="text-vldtn-input" value="text-vldtn-input" placeholder="placeholder text" required>
+      </label>
+
+      <label for="select-box">
+        select box
+        <div id="select-box"></div>
+      </label>
+
+      <label for="select-box-open">
+        select box - open
+        <div id="select-box-open"></div>
+      </label>
+
+      <label for="checkbox-btn">
+        checkbox
+        <button id="checkbox-btn-active" class="icons"></button>
+        <button id="checkbox-btn-inactive" class="icons"></button>
+      </label>
+
+      <label for="radio-btn">
+        radio
+        <button id="radio-btn-active" class="icons"></button>
+        <button id="radio-btn-inactive" class="icons"></button>
+      </label>
+
+      <label for="submit-btn">
+        submit
+        <button id="submit-btn-inactive"></button>
+        <button id="submit-btn-active"></button>
+      </label>
+
+
+    </form>
+    <script src="./app.js"></script>
+  </body>
+</html>
