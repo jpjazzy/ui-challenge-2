@@ -1,1 +1,151 @@
 /* APP STYLES */
+
+body {
+  margin: 0 auto;
+  max-width: 90%;
+  color: #494949;
+  font-size: 35px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+  padding: 50px;
+}
+
+input {
+  font-size: 35px;
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid #000;
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+.icons {
+  border-radius: 3px;
+  background: url(../sprites//form-elements-sprite.png);
+  background-position: -160px -240px;
+  width: 165px;
+  height: 165px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+}
+
+#checkbox-btn.inactive {
+  background-position: -160px -240px;
+}
+
+#checkbox-btn.active {
+  background-position: -380px -240px;
+}
+
+#radio-btn.inactive {
+  background-position: -583px -242px;
+}
+
+#radio-btn.active {
+  background-position: -813px -242px;
+}
+
+#select-box.inactive {
+  position: relative;
+  font-size: 35px;
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid #000;
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+#select-box-container #select-box {
+  cursor: pointer;
+  margin-bottom: 0;
+}
+
+#select-box-container {
+  position: relative;
+  color: #000;
+}
+
+#select-box-arrow.inactive {
+  position: absolute;
+  background: url(../sprites//form-elements-sprite.png);
+  background-position: -157px -38px;
+  width: 10px;
+  height: 10px;
+  background-repeat: no-repeat;
+  background-size: 200px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+  top: 25%;
+  left: 78%;
+}
+
+#select-box-arrow.active {
+  position: absolute;
+  background: url(../sprites//form-elements-sprite.png);
+  background-position: -143px -38px;
+  width: 10px;
+  height: 10px;
+  background-repeat: no-repeat;
+  background-size: 200px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+  top: 25%;
+  left: 78%;
+}
+
+ol.inactive {
+  display: none;
+}
+
+ol.active {
+  display: block;
+}
+
+li {
+  width: 82.3%;
+  max-width:
+}
+
+li.odd {
+  background: #AAA;
+}
+
+li.even {
+  background: #444;
+}
+
+button[type=submit] {
+  border-radius: 3px;
+  font-size: 25px;
+  padding: 5px 15px 5px 15px;
+  border: none;
+  text-align: center;
+  color: #494949;
+}
+
+button[type=submit]:active {
+  background: #494949;
+  color: #fff;
+  border-radius: 3px;
+  font-size: 25px;
+  padding: 5px 15px 5px 15px;
+  border: none;
+  text-align: center;
+}
